@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <title>PC Building guide </title>
+   
+</head>
+<body>
+    <div class = "main">
+        <header> <h1> Computer Components </h1> 
+
+            <div id="subcontainer">
+            <h3> Every single major computer part explained!</h3>
+            <img src = "images/divider.png" height = 50 width= 1000 id="divider">
+            </div>
+        <button class = "button" role = "button" onclick=toggleSlide() > Show </button>
+        </header>
+        
+        <div id="container">
+            <div class="box" id="CPU">
+                <img src = images/CPU.jpg> </img>
+                <a href="subPages/CPU/CPU.html">
+                <button> CPU </button>
+                </a>
+            </div>
+            <div class="box" id="GPU">
+                <img src = images/GPU.jpg> </img>
+                <a href="subPages/GPU/GPU.html">
+                <button> GPU </button>
+                </a>
+            </div>
+            <div class="box" id="RAM">
+                <img src = images/RAM.jpg> </img>
+                <button> RAM </button>
+            </div>
+            <div class="box" id="SSD/HDD">
+                <img src = images/SSD.jpg> </img>
+                <button> SSD/HDD </button>
+            </div>
+                <div class="box" id="Motherboard"> 
+                <img src = images/Motherboard.jpg> </img>
+                <button> MOTHERBOARD </button>
+            </div>
+            <div class="box" id="PSU" >
+                <img src = images/PSU.jpg> </img>
+                <button> PSU </button>
+            </div>
+            <div class="box" id="CASE" >
+                <img src = images/CASE.jpg> </img>
+                <button> CASE </button>
+            </div>
+                <div class="box" id="COOLING" >
+                <img src = images/COOLING.jpg> </img>
+                <button> COOLING </button>
+            </div>
+        </div>
+    </div>
+     <script src="buttonHandler.js"></script>
+</body>
+</html>

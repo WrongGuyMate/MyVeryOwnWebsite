@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(0, 0, 0, 0.85);
+  font-family: Arial, sans-serif;
+}
+
+header {
+  font-size: 2.5em;
+  color: rgb(201, 201, 201);
+  text-align: center;
+}
+
+#home {
+  position: relative;
+  top: -285px;
+  margin-top: 15px;
+  padding: 20px 20px;
+  color: rgb(196, 52, 52);
+  border: none;
+  border-radius: 10px;
+  cursor:pointer;
+  font-size: 20px;
+  font-family: "JetBrains Mono",monospace;
+  background-image: radial-gradient(100% 100% at 100% 0, #5f5fe3 0, #5468ff 100%);
+  transition: box-shadow .15s,transform .15s;
+  will-change: box-shadow,transform;
+}
+
+#home:hover {
+    transform: translateY(-3px);
+    box-shadow: #e9e4e4;
+}
+
+#home:active {
+  box-shadow: #4e4eff 0 3px 7px inset;
+  transform: translateY(6px);
+}
+
+
+#divider {
+  position: relative;
+  top: -30px
+}

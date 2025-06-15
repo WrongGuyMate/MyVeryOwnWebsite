@@ -1,1 +1,1 @@
-www.wrongguymate.github.io
+[mysite](https://wrongguymate.github.io/)
